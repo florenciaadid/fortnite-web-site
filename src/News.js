@@ -1,5 +1,6 @@
 import './App.css';
 import React,{ useState, useEffect } from 'react';
+import './news.scss'
 
 function News() {
   const [data, setData] = useState([]);
