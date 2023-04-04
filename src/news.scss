@@ -1,0 +1,25 @@
+.slider{
+    position: relative;
+  
+}
+
+.handle-previous,
+.handle-next
+    {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 10px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 80px;
+        color: rgb(56, 56, 56);
+        transition: all 0.3s ease-in-out;
+      }
+.handle-previous{
+    left: 0;
+}
+.handle-next{
+    right: 0;
+}

@@ -21,12 +21,12 @@ function News() {
   };
 
   return (
-    <div>
-      <h1>Fortnite News</h1>
+    <div className='slider-container'>
+      <h1>NEWS</h1>
       {data.length > 0 && (
-        <div>
-          <button onClick={handlePrevious}>Previous</button>
-          <button onClick={handleNext}>Next</button>
+        <div className='slider'>
+          <button className='handle-previous' onClick={handlePrevious}>&lt;</button>
+          <button className='handle-next' onClick={handleNext}>&gt;</button>
           <img src={data[currentSlide].image} alt={data[currentSlide].title} />
           <p>{data[currentSlide].title}</p>
           <p>{data[currentSlide].body}</p>
