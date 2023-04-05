@@ -22,7 +22,7 @@ function News() {
 
   return (
     <div className='slider-container'>
-      <h1>NEWS</h1>
+      <h2>NEWS</h2>
       {data.length > 0 && (
         <div className='slider'>
           <button className='handle-previous' onClick={handlePrevious}>&lt;</button>
