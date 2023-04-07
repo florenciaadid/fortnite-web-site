@@ -1,4 +1,5 @@
 import React,{ useState, useEffect } from 'react';
+import ShopEntry from './ShopEntry';
 
 function Shop() {
   const [entries, setData] = useState([]);
@@ -6,10 +7,6 @@ function Shop() {
   useEffect(() => {
     fetch("https://fortnite-api.com/v2/shop/br")
       .then((response) => response.json())
-      .then(d => {
-        console.log(d)
-        return d
-      })
       .then((data) => setData(data.data.featured.entries));
   }, []);
 
@@ -17,11 +14,7 @@ function Shop() {
     <div>
     
     {entries.map((entry) => (
-      <div>
-   
-            
-      </div>
-
+        <ShopEntry key={entry.offerId} entry={entry}/>
     ))}
   </div>
   );
