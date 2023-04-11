@@ -1,5 +1,5 @@
 import './App.css';
-import React,{ useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './news.scss'
 
 function News() {
@@ -25,11 +25,11 @@ function News() {
       <h2>NEWS</h2>
       {data.length > 0 && (
         <div className='slider'>
-          <button className='handle-previous' onClick={handlePrevious}>&lt;</button>
-          <button className='handle-next' onClick={handleNext}>&gt;</button>
+            <button className='handle-previous' onClick={handlePrevious}>&lt;</button>
+            <button className='handle-next' onClick={handleNext}>&gt;</button>
           <img src={data[currentSlide].image} alt={data[currentSlide].title} />
-          <p>{data[currentSlide].title}</p>
-          <p>{data[currentSlide].body}</p>
+          <h2 className='yellow-banner'>{data[currentSlide].title}</h2>
+          <h3>{data[currentSlide].body}</h3>
         </div>
       )}
     </div>

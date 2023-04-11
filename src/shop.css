@@ -1,0 +1,6 @@
+.shop-container {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 86, 197, 0.919)), color-stop(#2b8eff), to(#117efa));
+  background-image: linear-gradient(to right, rgba(31, 86, 197, 0.919), #2b8eff, #117efa);
+  color: white;
+}
+/*# sourceMappingURL=shop.css.map */
