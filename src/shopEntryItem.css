@@ -1,0 +1,23 @@
+.item-container {
+  max-width: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c14b4b), to(#fdaaf5));
+  background-image: linear-gradient(#c14b4b, #fdaaf5);
+}
+
+.item-container img {
+  width: 250px;
+}
+
+.item-container .description-container {
+  background-color: #050505;
+}
+
+.item-container .description-container .hr-item {
+  background-color: #52dde7;
+  height: 125px;
+  border: none;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+  z-index: -1;
+}
+/*# sourceMappingURL=shopEntryItem.css.map */

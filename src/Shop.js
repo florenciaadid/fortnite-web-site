@@ -1,6 +1,6 @@
 import React,{ useState, useEffect } from 'react';
 import ShopEntry from './ShopEntry';
-
+import './shop.scss'
 function Shop() {
   const [entries, setData] = useState([]);
 
@@ -11,8 +11,7 @@ function Shop() {
   }, []);
 
   return (
-    <div>
-    
+    <div className='shop-container'>
     {entries.map((entry) => (
         <ShopEntry key={entry.offerId} entry={entry}/>
     ))}

@@ -1,0 +1,25 @@
+.item-container{
+    max-width: 300px;
+    background-image: linear-gradient(rgb(255, 211, 255), rgb(224, 128, 178),rgb(88, 44, 203));
+    margin: 10px;
+    img{
+        width: 250px;
+        display: block;
+    }
+    .description-container{
+        background-color: rgb(28, 242, 238);
+        padding: 10px;
+        p{
+            padding: 5px;
+            color: black;
+        }
+    }
+}
+// .hr-item{
+//     background-color: rgb(28, 242, 238);
+//     height: 20px;
+//     border: none;
+//     transform: rotate(-2deg);
+//     bottom: 400px;
+
+// }
