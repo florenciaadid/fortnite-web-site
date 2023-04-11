@@ -1,6 +1,6 @@
 import './shopEntryItem.scss'
 import noImage from './assets/noImage.png'
-import vBucks from './assets/v-bucks.webp'
+
 function ShopEntryItem({item}){
     return(
         
